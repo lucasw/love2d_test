@@ -31,7 +31,7 @@ function love.load()
       star["a"] = star["a"] + 0.3
       table.insert(stars, star)
     else
-      love.graphics.setColor(star["r"], star["g"], star["b"], star["a"] * 0.9)
+      love.graphics.setColor(star["r"], star["g"], star["b"], star["a"] * 0.7)
       -- love.graphics.circle("fill", v["x"], v["y"], v["size"] * 1.6)
       -- love.graphics.setColor(v["r"], v["g"], v["b"], v["a"] * 0.5)
       love.graphics.circle("fill", star["x"], star["y"], star["size"])
